@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="currencycalculator.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:currencycalculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="LightPink">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                <TextBlock HorizontalAlignment="Left" Text="Universal Calculator" Margin="10" TextWrapping="Wrap" VerticalAlignment="Top" Width="182" Height="44" FontSize="18" FontWeight="Bold" RenderTransformOrigin="0.438,0.911"/>
+                <Button Content="Math Calculator" Height="39" Margin="10" VerticalAlignment="Top" Width="150"/>
+            <Button Content="Mortgage Calculator" Height="39" Margin="10" VerticalAlignment="Top" Width="150" />
+            <Button x:Name="currencyConvertorButton" Content="Currency Calculator" Height="39" Margin="10" VerticalAlignment="Top" Width="150" Click="currencyConvertorButton_Click"/>
+                <Button Content="Exit" Height="39" Margin="10" VerticalAlignment="Top" Width="150"/>
+            </StackPanel>
+            <Image Source="Assets/abacus.PNG" HorizontalAlignment="Right" Height="78" VerticalAlignment="Top"/>
+
+            <!--<StackPanel HorizontalAlignment="Center" Margin="50">
+            <Button x:Name="currencyConvertorButton" Height="80" Width="800" Content="Currency Convertor" FontSize="50" Click="currencyConvertorButton_Click"/>
+        </StackPanel>-->
+    </Grid>
+</Page>
