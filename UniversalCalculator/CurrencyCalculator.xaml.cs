@@ -226,6 +226,6 @@ namespace Calculator
 		{
 			this.Frame.Navigate(typeof(MainMenu));
 		}
+
 	}
-}
 }
