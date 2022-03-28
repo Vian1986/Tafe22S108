@@ -41,6 +41,9 @@ namespace Calculator
 			this.Frame.Navigate(typeof(MainPage));
 		}
 
-
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			//Click event will be developed later
+		}
 	}
 }
